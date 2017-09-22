@@ -1,0 +1,27 @@
+group 'xyz.funjava.functional'
+version '0.0.1.SNAPSHOT'
+
+apply plugin: 'biz.aQute.bnd.builder'
+apply plugin: 'java'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+buildscript {
+  repositories {
+    jcenter()
+  }
+  dependencies {
+    classpath 'biz.aQute.bnd:biz.aQute.bnd.gradle:3.2.0'
+  }
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
