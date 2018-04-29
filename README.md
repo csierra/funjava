@@ -10,14 +10,14 @@ To use it in your maven project add
 ```
 <dependency>
   <groupId>xyz.funjava.functional</groupiId>
-  <artifactId>funjava-validation</artifactId>
+  <artifactId>validation</artifactId>
   <version>0.0.1.SNAPSHOT</version>
 </dependency>
 ```
 
 or in your gradle project:
 ```
-compile 'xyz.funjava.functional:funjava-validation:0.0.1.SNAPSHOT'
+compile 'xyz.funjava.functional:validation:0.0.1.SNAPSHOT'
 ```
 
 the project coordinates are very likely to change in the future.
