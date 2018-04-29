@@ -11,13 +11,13 @@ To use it in your maven project add
 <dependency>
   <groupId>xyz.funjava.functional</groupiId>
   <artifactId>validation</artifactId>
-  <version>0.0.1.SNAPSHOT</version>
+  <version>0.0.1</version>
 </dependency>
 ```
 
 or in your gradle project:
 ```
-compile 'xyz.funjava.functional:validation:0.0.1.SNAPSHOT'
+compile 'xyz.funjava.functional:validation:0.0.1'
 ```
 
 the project coordinates are very likely to change in the future.

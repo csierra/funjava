@@ -1,6 +1,6 @@
 group 'xyz.funjava.functional'
 archivesBaseName = "validation"
-version '0.0.1.SNAPSHOT'
+version '0.0.1'
 
 dependencies {
     compile project(':base')
