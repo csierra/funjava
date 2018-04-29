@@ -2,9 +2,7 @@
 
 This is a typesafe validation library with an aim on composition, reuse and safety. Tools are provided to create, compose or enrich validator while maintaining type safety. 
 
-## Getting started
-
-The project is still in _alpha_ state and it is not yet published as an artifact. First clone this repo and issue `./gradlew install` from the root of the project to install it in your local maven repository. 
+## Getting started 
 
 To use it in your maven project add
 ```

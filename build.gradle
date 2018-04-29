@@ -34,49 +34,6 @@ allprojects {
         sign configurations.archives
     }
 
-    uploadArchives {
-        repositories {
-            mavenDeployer {
-                beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
-
-                repository(url: "https://oss.sonatype.org/service/local/staging/deploy/maven2/") {
-                    authentication(userName: ossrhUsername, password: ossrhPassword)
-                }
-
-                snapshotRepository(url: "https://oss.sonatype.org/content/repositories/snapshots/") {
-                    authentication(userName: ossrhUsername, password: ossrhPassword)
-                }
-
-                pom.project {
-                    name 'Typesafe Validation Library for Java 8'
-                    packaging 'jar'
-                    description 'This is a typesafe validation library with an aim on composition, reuse and safety. Tools are provided to create, compose or enrich validator while maintaining type safety.'
-                    url 'https://github.com/csierra/funjava/'
-
-                    scm {
-                        connection 'scm:git:https://github.com/csierra/funjava.git'
-                        developerConnection 'scm:git:git@github.com:csierra/funjava.git'
-                        url 'https://github.com/csierra/funjava/'
-                    }
-
-                    licenses {
-                        license {
-                            name 'The Apache License, Version 2.0'
-                            url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-                        }
-                    }
-
-                    developers {
-                        developer {
-                            id 'csierra'
-                            name 'Carlos Sierra Andrés'
-                            email 'csierra@gmail.com'
-                        }
-                    }
-                }
-            }
-        }
-    }
 }
 
 buildscript {
