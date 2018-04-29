@@ -1,3 +1,0 @@
-Bundle-SymbolicName: xyz.funjava.functional
-Bundle-Version: 0.0.1.SNAPSHOT
-Export-Package: xyz.funjava.functional.*

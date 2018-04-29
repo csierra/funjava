@@ -1,0 +1,3 @@
+Bundle-SymbolicName: xyz.funjava.functional.higherkinded
+Bundle-Version: 0.0.1.SNAPSHOT
+Export-Package: xyz.funjava.functional.higherkinded.*

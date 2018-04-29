@@ -1,2 +1,3 @@
+include 'base', 'higherkinded', 'validation'
 rootProject.name = 'java8-functional'
 
